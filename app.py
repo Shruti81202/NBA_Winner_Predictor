@@ -5,7 +5,7 @@ import streamlit as st
 
 from PIL import Image
 # Load the image
-image = Image.open('C:/Users/Admin/Desktop/basketball/mike.jpg')
+image = Image.open('https://m.media-amazon.com/images/I/71A9RuXTRlL._AC_UF1000,1000_QL80_.jpg')
 
 # Display the image
 st.image(image, use_column_width=True)
