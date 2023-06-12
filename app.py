@@ -3,12 +3,12 @@ import numpy as np
 import pickle
 import streamlit as st
 
-from PIL import Image
-# Load the image
-image = Image.open('https://m.media-amazon.com/images/I/71A9RuXTRlL._AC_UF1000,1000_QL80_.jpg')
+image_url = "https://m.media-amazon.com/images/I/71A9RuXTRlL._AC_UF1000,1000_QL80_.jpg"
 
-# Display the image
-st.image(image, use_column_width=True)
+# Display the image using the image URL
+st.image(image_url)
+
+
 # Your Streamlit app code here
 # ...
 filename = 'ml_model.pkl'
